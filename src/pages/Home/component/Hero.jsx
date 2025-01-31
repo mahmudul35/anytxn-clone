@@ -1,6 +1,7 @@
 import React from "react";
 import WaveLinesDesktop3 from "../../../assets/backgrounds/WaveLinesDesktop3.svg";
-import girl from "../../../assets/girl1.jpg";
+// import girl from "../../../assets/girl1.jpg";
+import gir2 from "../../../assets/girl2.jpg";
 import Navbar from "../../../component/Navbar";
 const Hero = () => {
   return (
@@ -24,7 +25,7 @@ const Hero = () => {
         </div>
         {/* Right Image */}
         <div>
-          <img src={girl} alt="Hero" className="w-96 h-auto rounded" />
+          <img src={gir2} alt="Hero" className="w-96 h-auto rounded" />
           <img
             src={WaveLinesDesktop3}
             alt="Wave Lines Desktop"
