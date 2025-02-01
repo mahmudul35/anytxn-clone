@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../../component/Footer";
 import Hero from "./component/Hero";
 import OurPhilosopy from "./component/OurPhilosopy";
 import PoweringFuture from "./component/PoweringFuture";
@@ -14,6 +15,7 @@ const Home = () => {
       <OurPhilosopy />
       <Slider />
       <TrustedSection />
+      <Footer />
     </div>
   );
 };
