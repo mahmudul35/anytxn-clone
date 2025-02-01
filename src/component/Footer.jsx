@@ -6,19 +6,30 @@ import Button from "./Button";
 const Footer = () => {
   return (
     <>
-      <div className="relative">
-        <div className="bg-blue-700 pl-96 text-white  z-20 p-8 space-y-6 h-[450px] flex flex-col justify-center ">
-          <h1 className="text-5xl font-bold">Legacy no longer</h1>
-          <p className="text-lg font-semibold">
-            Talk to us to find out how we can transform your organisation for
-            the future
-          </p>
-          <Button text="Get Started" />
-          <img
+      <div className="">
+        <div className="bg-blue-700 relative  pl-96 text-white   p-8  h-[450px] flex flex-col justify-center ">
+          <div
+            className="absolute inset-0 bg-transparent opacity-50 z-0"
+            style={{
+              backgroundImage: `url(${wave4})`,
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+            }}
+          ></div>
+
+          <div className="relative z-10 space-y-6">
+            <h1 className="text-5xl font-bold">Legacy no longer</h1>
+            <p className="text-lg font-semibold">
+              Talk to us to find out how we can transform your organisation for
+              the future
+            </p>
+            <Button text="Get Started" />
+          </div>
+          {/* <img
             src={wave4}
             alt=""
             className="absolute object-cover z-20 h-[400px]"
-          />
+          /> */}
         </div>
       </div>
       <div className="bg-[#002045]">
