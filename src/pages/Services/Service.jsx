@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../../component/Navbar";
 import Card from "./shared/Card";
+import Consult from "./shared/Consult";
 import Power from "./shared/Power";
 
 const Service = () => {
@@ -15,6 +16,7 @@ const Service = () => {
       />
       <Power />
       <Card />
+      <Consult />
     </div>
   );
 };
